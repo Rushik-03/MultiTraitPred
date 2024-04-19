@@ -1,0 +1,153 @@
+*{
+     background-color:rgb(0, 0, 0);
+}
+.navbar{
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     padding: 20px;
+     background-color: black;
+     border-bottom-style:solid;
+     border-bottom-color:azure;
+     border-bottom-width: 1px;
+}
+.no{
+     text-decoration: none;
+     color:white;
+     letter-spacing: 0.7px;
+     padding: 0px 10px;
+     font-size: 1.3rem;
+     
+}
+
+.nav-right{
+     display:flex;
+     flex-direction: row;
+     justify-content: space-around;
+}
+
+.home{
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     margin-top: 20px;
+     border-radius: 20px;
+     margin-left: 180px;
+     margin-right: 180px;
+     padding: 40px;
+     h1{
+          color: white;
+     }
+     p{
+          letter-spacing: 0.5px;
+          font-size: 1.2rem;
+          color: white;
+     }
+}
+.Concept{
+     display:flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     margin-top: 20px;
+     border-radius: 20px;
+     background-color: #313d49;
+     margin-left: 180px;
+     margin-right: 180px;
+     padding: 40px;
+     h1{
+          text-align: center;
+     }
+     p{
+          font-size: 1.2rem;
+          letter-spacing: 0.2px;
+          word-spacing: 2px;
+     }
+ }
+
+ .buttn{
+     display: flex;
+     justify-content: center;
+     padding: 30px;
+     button{
+          background-color:darkgreen;
+     }
+ }
+ .table {
+     width: 45%;
+     margin: 10px auto;
+     border-collapse: collapse;
+     border: 8px solid white;
+     border-radius: 16px;
+     overflow: hidden;
+   }
+
+   th,
+   td {
+     border: 8px #ddd;
+     padding: 8px;
+     text-align: center;
+   }
+
+   th {
+     background-color: #333;
+     color: white;
+   }
+
+
+ .overall{
+     margin:30px;
+ }
+ .submit{
+     margin:30px;
+ }
+
+ .terms{
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     padding-top: 30px;
+     h3{
+          font-weight: 100;
+          margin:10px;
+          font-size: 2rem;
+     }
+     h4{
+          letter-spacing: 0.8px;
+          font-weight: 100;
+          margin:10px;
+          font-size: 1.5rem;
+     }
+ }
+
+ th{
+     color: white;
+ }
+
+ td{
+     color:white;
+ }
+
+ table {
+     font-family: arial, sans-serif;
+     border-collapse: collapse;
+     width: 100%;
+   }
+   
+   td, th {
+     border: 1px solid #dddddd;
+     text-align: left;
+     padding: 15px;
+   }
+   
+   tr:nth-child(even) {
+     background-color: #dddddd;
+   }
+
+   .tables{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+
+   }
+
+   

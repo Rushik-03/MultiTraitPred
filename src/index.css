@@ -1,0 +1,31 @@
+.home-top{
+     .left{
+          padding: 10px;
+          color:white;
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          letter-spacing: 0.3px;
+     }
+     .right{
+          padding:10px;
+          color:white;
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          letter-spacing: 0.3px;
+     }
+}
+.home-top{
+     display: flex;
+     flex-direction: row;
+
+}
+
+.home-middle{
+     background-color: darkslategray;
+     padding:20px;
+     border-radius: 20px;
+}
+.home{
+     padding: 25px;
+     display: flex;
+     flex-wrap: wrap;
+
+}
