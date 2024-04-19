@@ -1,6 +1,6 @@
 import './App.css'
 import {BrowserRouter as Router, Routes,Route } from 'react-router-dom'
-import Navbar from './Components/Navbar'
+import Navbar from './Navbar'
 import Home from './Home'
 import Predict from './Predict'
 
